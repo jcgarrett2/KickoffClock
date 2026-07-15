@@ -2,7 +2,7 @@ let schedule = [];
 
 async function loadSchedule() {
 
-    const response = await fetch("schedule.json");
+    const response = await fetch("schedule.json?v=" + Date.new());
 
     schedule = await response.json();
 
