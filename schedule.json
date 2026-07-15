@@ -1,0 +1,92 @@
+[
+  {
+    "week": 0,
+    "date": "2026-08-21T19:00:00-05:00",
+    "home": "Holy Spirit",
+    "away": "Waterloo",
+    "homeLogo": "logos/holyspirit.png",
+    "awayLogo": "logos/waterloo.png",
+    "location": "Arthur Howington Field",
+    "type": "Non-Region"
+  },
+  {
+    "week": 1,
+    "date": "2026-08-28T19:00:00-05:00",
+    "home": "Holy Spirit",
+    "away": "J.F. Shields",
+    "homeLogo": "logos/holyspirit.png",
+    "awayLogo": "logos/jfshields.png",
+    "location": "Arthur Howington Field",
+    "type": "Non-Region"
+  },
+  {
+    "week": 2,
+    "date": "2026-09-04T19:00:00-05:00",
+    "home": "Holy Spirit",
+    "away": "Pickens Academy",
+    "homeLogo": "logos/holyspirit.png",
+    "awayLogo": "logos/pickens.png",
+    "location": "Arthur Howington Field",
+    "type": "Region(Homecoming)"
+  },
+  {
+    "week": 3,
+    "date": "2026-09-11T19:00:00-05:00",
+    "home": "Donoho",
+    "away": "Holy Spirit",
+    "homeLogo": "logos/donoho.png",
+    "awayLogo": "logos/holyspirit.png",
+    "location": "Lentz Field",
+    "type": "Region"
+  },
+  {
+    "week": 4,
+    "date": "2026-09-18T19:00:00-05:00",
+    "home": "Ellwood Christian",
+    "away": "Holy Spirit",
+    "homeLogo": "logos/ellwood.png",
+    "awayLogo": "logos/holyspirit.png",
+    "location": "Selma Memorial Stadium",
+    "type": "Region"
+  },
+  {
+    "week": 6,
+    "date": "2026-10-02T19:00:00-05:00",
+    "home": "Holy Spirit",
+    "away": "Hope Christian",
+    "homeLogo": "logos/holyspirit.png",
+    "awayLogo": "logos/hope.png",
+    "location": "Arthur Howington Field",
+    "type": "Region"
+  },
+  {
+    "week": 8,
+    "date": "2026-10-16T19:00:00-05:00",
+    "home": "Tuscaloosa Academy",
+    "away": "Holy Spirit",
+    "homeLogo": "logos/tuscaloosaacademy.png",
+    "awayLogo": "logos/holyspirit.png",
+    "location": "TBD",
+    "type": "Region"
+  },
+  {
+    "week": 9,
+    "date": "2026-10-23T19:00:00-05:00",
+    "home": "Holy Spirit",
+    "away": "Victory Christian",
+    "homeLogo": "logos/holyspirit.png",
+    "awayLogo": "logos/victory.png",
+    "location": "Arthur Howington Field",
+    "type": "Region(Senior Night)"
+  },
+  {
+    "week": 10,
+    "date": "2026-10-30T19:00:00-05:00",
+    "home": "Billingsley",
+    "away": "Holy Spirit",
+    "homeLogo": "logos/billingsley.png",
+    "awayLogo": "logos/holyspirit.png",
+    "location": "Mims Field",
+    "type": "Non-Region"
+  }
+]
