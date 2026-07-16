@@ -1,0 +1,10 @@
+{
+  "rotation": [
+    { "screen": "countdown", "duration": 20 },
+    { "screen": "schedule",  "duration": 15 },
+    { "screen": "stats",     "duration": 15 },
+    { "screen": "quote",     "duration": 15 },
+    { "screen": "pyramid", "duration": 15 },
+    { "screen": "countdown", "duration": 20 }
+  ]
+}
