@@ -67,3 +67,11 @@ body {
     font-size: 1.25rem;
     color: #cccccc;
 }
+.screen{
+    width:100vw;
+    height:100vh;
+}
+
+.hidden{
+    display:none;
+}
