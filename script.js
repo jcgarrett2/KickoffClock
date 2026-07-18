@@ -154,27 +154,95 @@ function showRandomQuote(){
         "- " + quotes[random].author;
 
 }
-function buildSchedule(){
+function buildSchedule() {
 
-    let html = "";
+    let html = `
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Opponent</th>
+                    <th>Location</th>
+                    <th>Type</th>
+                    <th>Result</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+    `;
 
-    schedule.forEach(game=>{
+    schedule.forEach(game => {
 
-        const date = new Date(game.date);
+        let rowClass = "";
+        let statusClass = "";
+
+        switch (game.status.toLowerCase()) {
+
+            case "win":
+                rowClass = "game-win";
+                statusClass = "status-win";
+                break;
+
+            case "loss":
+                rowClass = "game-loss";
+                statusClass = "status-loss";
+                break;
+
+            case "next":
+                rowClass = "game-next";
+                statusClass = "status-next";
+                break;
+
+            default:
+                rowClass = "game-scheduled";
+                statusClass = "status-scheduled";
+        }
+
+        const opponent =
+            game.home === "Holy Spirit"
+                ? game.away
+                : "@ " + game.home;
+
+        const result =
+            (game.homeScore != null && game.awayScore != null)
+                ? `${game.homeScore}-${game.awayScore}`
+                : "--";
+
+        const logo =
+            game.home === "Holy Spirit"
+                ? game.awayLogo
+                : game.homeLogo;
 
         html += `
-            <div>
-                ${date.toLocaleDateString("en-US",
-                {
-                    month:"short",
-                    day:"numeric"
-                })}
-                 -
-                ${game.away} @ ${game.home}
-            </div>
+            <tr class="${rowClass}">
+
+                <td>
+                    <img class="schedule-logo"
+                         src="${logo}"
+                         alt="${opponent}">
+                </td>
+
+                <td>${opponent}</td>
+
+                <td>${game.location}</td>
+
+                <td>${game.type}</td>
+
+                <td>${result}</td>
+
+                <td class="status ${statusClass}">
+                    ${game.status}
+                </td>
+
+            </tr>
         `;
 
     });
+
+    html += `
+            </tbody>
+        </table>
+    `;
 
     document.getElementById("scheduleList").innerHTML = html;
 
