@@ -75,3 +75,22 @@ body {
 .hidden{
     display:none;
 }
+
+#scheduleList{
+    font-size:2rem;
+    line-height:2;
+    text-align:left;
+    width:70%;
+    margin:auto;
+}
+
+.quote{
+    font-size:3rem;
+    font-style:italic;
+    margin-bottom:40px;
+}
+
+.author{
+    font-size:2rem;
+    color:#cccccc;
+}
