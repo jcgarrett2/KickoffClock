@@ -1,12 +1,27 @@
 let schedule = [];
+let quotes = [];
 
-async function loadSchedule() {
+let currentGame = null;
 
-    const response = await fetch("schedule.json");
+let currentScreen = 0;
 
-    schedule = await response.json();
+const screens = [
+    "countdownScreen",
+    "scheduleScreen",
+    "quoteScreen"
+];
 
-    startCountdown();
+async function loadData() {
+
+    const scheduleResponse = await fetch("schedule.json");
+    schedule = await scheduleResponse.json();
+
+    const quoteResponse = await fetch("quotes.json");
+    const quoteData = await quoteResponse.json();
+
+    quotes = quoteData.quotes;
+
+    startApp();
 }
 
 function getNextGame() {
@@ -68,25 +83,60 @@ function updateCountdown(game) {
 
 }
 
-function startCountdown() {
+function startApp() {
 
-    const game = getNextGame();
+    currentGame = getNextGame();
 
-    if (!game) {
+    if (!currentGame) {
 
-        document.getElementById("countdown").innerHTML = "SEASON COMPLETE";
+        document.getElementById("countdown").innerHTML =
+            "SEASON COMPLETE";
 
         return;
+
     }
 
-    updateCountdown(game);
+    updateCountdown(currentGame);
 
     setInterval(() => {
 
-        updateCountdown(game);
+        updateCountdown(currentGame);
 
-    }, 1000);
+    },1000);
+    showScreen(screens[0]);
+
+    setInterval(nextScreen,15000);
 
 }
 
-loadSchedule();
+function showScreen(id){
+
+    screens.forEach(screen=>{
+
+        document
+            .getElementById(screen)
+            .classList.add("hidden");
+
+    });
+
+    document
+        .getElementById(id)
+        .classList.remove("hidden");
+
+}
+
+function nextScreen(){
+
+    currentScreen++;
+
+    if(currentScreen>=screens.length){
+
+        currentScreen=0;
+
+    }
+
+    showScreen(screens[currentScreen]);
+
+}
+
+loadData();
