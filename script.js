@@ -122,7 +122,11 @@ function showScreen(id){
     document
         .getElementById(id)
         .classList.remove("hidden");
+    if(id==="scheduleScreen")
+        buildSchedule();
 
+    if(id==="quoteScreen")
+        showRandomQuote();
 }
 
 function nextScreen(){
