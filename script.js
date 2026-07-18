@@ -138,5 +138,42 @@ function nextScreen(){
     showScreen(screens[currentScreen]);
 
 }
+function showRandomQuote(){
+
+    const random =
+        Math.floor(Math.random()*quotes.length);
+
+    document.getElementById("quoteText").innerText =
+        quotes[random].quote;
+
+    document.getElementById("quoteAuthor").innerText =
+        "- " + quotes[random].author;
+
+}
+function buildSchedule(){
+
+    let html = "";
+
+    schedule.forEach(game=>{
+
+        const date = new Date(game.date);
+
+        html += `
+            <div>
+                ${date.toLocaleDateString("en-US",
+                {
+                    month:"short",
+                    day:"numeric"
+                })}
+                 -
+                ${game.away} @ ${game.home}
+            </div>
+        `;
+
+    });
+
+    document.getElementById("scheduleList").innerHTML = html;
+
+}
 
 loadData();
