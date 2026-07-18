@@ -94,3 +94,197 @@ body {
     font-size:2rem;
     color:#cccccc;
 }
+
+/* ===========================
+   Schedule Screen
+=========================== */
+
+.schedule-container{
+
+    width:95%;
+    margin:auto;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+
+}
+
+.schedule-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    table-layout:fixed;
+
+    color:white;
+
+    font-size:1.6rem;
+
+}
+
+.schedule-table th{
+
+    background:#1d1d1d;
+
+    color:white;
+
+    font-size:1.9rem;
+
+    padding:18px;
+
+    border-bottom:4px solid #ffffff;
+
+}
+
+.schedule-table td{
+
+    padding:14px;
+
+    text-align:center;
+
+    border-bottom:1px solid #444;
+
+}
+
+.schedule-table td:nth-child(2){
+
+    text-align:left;
+
+    font-weight:bold;
+
+}
+
+
+/* Logo Column */
+
+.schedule-logo{
+
+    width:60px;
+
+    height:60px;
+
+    object-fit:contain;
+
+}
+
+
+/* ===========================
+   Row Colors
+=========================== */
+
+.game-win{
+
+    background:#184d18;
+
+}
+
+.game-loss{
+
+    background:#5a1d1d;
+
+}
+
+.game-next{
+
+    background:#806000;
+
+    font-weight:bold;
+
+}
+
+.game-scheduled{
+
+    background:#202020;
+
+}
+
+.game-bye{
+
+    background:#243a5a;
+
+}
+
+
+/* ===========================
+   Status Text
+=========================== */
+
+.status{
+
+    font-weight:bold;
+
+    letter-spacing:1px;
+
+}
+
+.status-win{
+
+    color:#7CFC7C;
+
+}
+
+.status-loss{
+
+    color:#ff8080;
+
+}
+
+.status-next{
+
+    color:#FFD700;
+
+}
+
+.status-scheduled{
+
+    color:#DDDDDD;
+
+}
+
+
+/* ===========================
+   Quote Screen
+=========================== */
+
+.quote{
+
+    width:80%;
+
+    margin:auto;
+
+    text-align:center;
+
+    font-size:3rem;
+
+    line-height:1.5;
+
+    font-style:italic;
+
+}
+
+.author{
+
+    margin-top:50px;
+
+    font-size:2rem;
+
+    color:#cccccc;
+
+}
+
+
+/* ===========================
+   Schedule List (temporary)
+=========================== */
+
+#scheduleList{
+
+    width:95%;
+
+    margin:auto;
+
+}
