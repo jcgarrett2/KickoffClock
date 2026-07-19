@@ -91,76 +91,98 @@ body {
    Schedule Screen
 =========================== */
 
-.schedule-container{
-
-    width:95%;
-    margin:auto;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    height:100vh;
-
-}
-
 .schedule-table {
 
     width:100%;
+
     border-collapse:collapse;
-    table-layout:auto;
+
     color:white;
+
     font-size:1.2rem;
+
     line-height:1.2;
 
+    background:#111;
+
 }
 
-.schedule-table th,
-.schedule-table td {
 
-    vertical-align:middle;
-    padding:8px;
+/* Header */
+
+.schedule-table th {
+
+    background:#1d1d1d;
+
+    color:white;
+
+    font-size:1.3rem;
+
+    padding:10px;
+
     text-align:center;
 
+    border-bottom:3px solid white;
+
 }
 
-.schedule-table td:nth-child(2){
+
+/* Cells */
+
+.schedule-table td {
+
+    padding:8px;
+
+    text-align:center;
+
+    vertical-align:middle;
+
+    border-bottom:1px solid #444;
+
+}
+
+
+/* Opponent alignment */
+
+.schedule-table td:nth-child(2) {
 
     text-align:left;
+
     font-weight:bold;
 
 }
 
 
+/* Logo */
 
-/* Logo Column */
+.schedule-logo {
 
-.schedule-logo{
+    width:45px;
 
-    width:36px;
-
-    height:36px;
+    height:45px;
 
     object-fit:contain;
 
+}
 
-/* ===========================
-   Row Colors
-=========================== */
 
-.game-win{
+/* Row colors */
+
+.game-win {
 
     background:#184d18;
 
 }
 
-.game-loss{
+
+.game-loss {
 
     background:#5a1d1d;
 
 }
 
-.game-next{
+
+.game-next {
 
     background:#806000;
 
@@ -168,24 +190,24 @@ body {
 
 }
 
-.game-scheduled{
+
+.game-scheduled {
 
     background:#202020;
 
 }
 
-.game-bye{
+
+.game-bye {
 
     background:#243a5a;
 
 }
 
 
-/* ===========================
-   Status Text
-=========================== */
+/* Status */
 
-.status{
+.status {
 
     font-weight:bold;
 
@@ -193,30 +215,33 @@ body {
 
 }
 
-.status-win{
+
+.status-win {
 
     color:#7CFC7C;
 
 }
 
-.status-loss{
+
+.status-loss {
 
     color:#ff8080;
 
 }
 
-.status-next{
+
+.status-next {
 
     color:#FFD700;
 
 }
 
-.status-scheduled{
+
+.status-scheduled {
 
     color:#DDDDDD;
 
 }
-
 
 /* ===========================
    Quote Screen
