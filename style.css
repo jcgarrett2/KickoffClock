@@ -247,29 +247,63 @@ body {
    Quote Screen
 =========================== */
 
-.quote{
+.quote-container {
 
-    width:80%;
+    width:100%;
+    height:100%;
 
-    margin:auto;
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
 
     text-align:center;
 
-    font-size:3rem;
+    padding:80px;
 
-    line-height:1.5;
+}
+
+
+.quote {
+
+    max-width:80%;
+
+    font-size:4rem;
+
+    line-height:1.3;
+
+    font-weight:bold;
 
     font-style:italic;
 
 }
 
-.author{
+
+.author {
 
     margin-top:50px;
 
-    font-size:2rem;
+    font-size:2.2rem;
 
     color:#cccccc;
+
+}
+
+
+.quote-logo {
+
+    position:absolute;
+
+    bottom:50px;
+
+    width:150px;
+
+    height:150px;
+
+    object-fit:contain;
 
 }
 
