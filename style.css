@@ -76,14 +76,6 @@ body {
     display:none;
 }
 
-#scheduleList{
-    font-size:2rem;
-    line-height:2;
-    text-align:left;
-    width:70%;
-    margin:auto;
-}
-
 .quote{
     font-size:3rem;
     font-style:italic;
@@ -123,41 +115,10 @@ body {
     color:white;
 
     font-size:1.2rem;
-
-}
-.schedule-table th:nth-child(1),
-.schedule-table td:nth-child(1) {
-    width:8%;
+    
+    line-height:1.2;
 }
 
-
-.schedule-table th:nth-child(2),
-.schedule-table td:nth-child(2) {
-    width:22%;
-}
-
-
-.schedule-table th:nth-child(3),
-.schedule-table td:nth-child(3) {
-    width:30%;
-}
-
-
-.schedule-table th:nth-child(4),
-.schedule-table td:nth-child(4) {
-    width:15%;
-}
-
-
-.schedule-table th:nth-child(5),
-.schedule-table td:nth-child(5) {
-    width:10%;
-}
-
-
-.schedule-table th:nth-child(6),
-.schedule-table td:nth-child(6) {
-    width:15%;
 }
 
 .schedule-table th {
@@ -174,14 +135,6 @@ body {
     border-bottom: 1px solid #444;
 }
 
-.schedule-table td:nth-child(2){
-
-    text-align:left;
-
-    font-weight:bold;
-
-}
-
 .schedule-table tbody tr {
     height: 50px;
 }
@@ -196,6 +149,12 @@ body {
 
     object-fit:contain;
 
+}
+
+.schedule-table th,
+.schedule-table td {
+    vertical-align:middle;
+    padding:8px;
 }
 
 
