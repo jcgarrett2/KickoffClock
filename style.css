@@ -113,11 +113,51 @@ body {
 }
 
 .schedule-table {
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: collapse;
-    color: white;
-    font-size: 1rem;
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    table-layout:fixed;
+
+    color:white;
+
+    font-size:1.2rem;
+
+}
+.schedule-table th:nth-child(1),
+.schedule-table td:nth-child(1) {
+    width:8%;
+}
+
+
+.schedule-table th:nth-child(2),
+.schedule-table td:nth-child(2) {
+    width:22%;
+}
+
+
+.schedule-table th:nth-child(3),
+.schedule-table td:nth-child(3) {
+    width:30%;
+}
+
+
+.schedule-table th:nth-child(4),
+.schedule-table td:nth-child(4) {
+    width:15%;
+}
+
+
+.schedule-table th:nth-child(5),
+.schedule-table td:nth-child(5) {
+    width:10%;
+}
+
+
+.schedule-table th:nth-child(6),
+.schedule-table td:nth-child(6) {
+    width:15%;
 }
 
 .schedule-table th {
