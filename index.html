@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Kickoff Countdown</title>
 
     <link rel="stylesheet" href="style.css">
@@ -44,18 +45,23 @@
 
     <div id="scheduleScreen" class="screen hidden">
 
-        <div class="schedule-container">
+       <div class="container-fluid h-100">
 
-            <div class="center">
+        <div class="row h-100">
 
-                <div class="title">
+            <div class="col-12 d-flex flex-column">
+
+                <h1 class="text-center py-4">
                     2026 SCHEDULE
-                </div>
+                </h1>
 
-                <div id="scheduleList"></div>
+                <div id="scheduleList" class="flex-grow-1"></div>
 
             </div>
+
         </div>
+
+    </div>
 
     </div>
 
