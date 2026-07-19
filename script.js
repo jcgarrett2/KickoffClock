@@ -151,7 +151,7 @@ function showRandomQuote(){
         quotes[random].quote;
 
     document.getElementById("quoteAuthor").innerText =
-         + quotes[random].author;
+         quotes[random].author;
 
 }
 function buildSchedule() {
