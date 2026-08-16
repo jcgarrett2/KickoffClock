@@ -5,7 +5,7 @@ let config = [];
 let currentGame = null;
 let currentScreen = 0;
 let rotation = [];
-
+let standings = [];
 async function loadData() {
 
     const scheduleResponse = await fetch("schedule.json");
@@ -21,6 +21,9 @@ async function loadData() {
 
     const configResponse = await fetch("config.json");
     const configData = await configResponse.json();
+
+    const standingsResponse = await fetch("standings.json");
+    standings = await standingsResponse.json();
 
     rotation = configData.rotation;
 
@@ -160,6 +163,57 @@ function nextScreen() {
         nextScreen,
         rotation[currentScreen].duration * 1000
     );
+}
+
+function buildStandings(){
+    
+    let html = `
+
+        <table class="standings-table">
+
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Logo</th>
+                    <th>Team</th>
+                    <th>Record</th>
+                    <th>Region Record</th>
+                    <th>Next</th>
+                </tr>
+            </thead>
+            <tbody>
+    `;
+    standings.forEach(team => {
+
+        html += `
+
+            <tr>
+
+                <td>${team["Standing"]}</td>
+
+                <td>${team["Logo"]}</td>
+
+                <td>${team["team"]}</td>
+
+                <td>${team["Record"]}</td>
+
+                <td>${team["Region Record"]}</td>
+
+                <td>${team["Next"]}</td>
+
+            </tr>
+
+        `;
+
+    });
+
+    html += `
+            </tbody>
+        </table>
+    `;
+
+    document.getElementById("standingsList").innerHTML = html;
+
 }
 
 function buildStats() {
