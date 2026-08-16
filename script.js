@@ -174,7 +174,7 @@ function buildStandings(){
     
     let html = `
 
-        <table class="standings-table">
+        <table class="schedule-table standings-table">
 
             <thead>
                 <tr>
