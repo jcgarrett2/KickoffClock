@@ -8,7 +8,7 @@
     "awayLogo": "waterloo.png",
     "location": "Arthur Howington Field",
     "type": "Non-Region",
-    "status":"Scheduled",
+    "status":"Next",
     "homeScore":0,
     "awayScore":0
   },
