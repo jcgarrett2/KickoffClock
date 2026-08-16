@@ -504,13 +504,11 @@ body {
 
 }
 
-
-/* Team name */
+.standings-table td:nth-child(2) {
+    text-align: center;
+}
 
 .standings-table td:nth-child(3) {
-
-    text-align: left;
-
+    text-align: center;
     font-weight: bold;
-
 }
