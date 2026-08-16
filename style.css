@@ -319,3 +319,137 @@ body {
     min-height: 0;
     overflow: hidden;
 }
+
+/* ===========================
+   Stats Screen
+=========================== */
+
+.stats-screen {
+    width: 100%;
+    height: 100vh;
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Title */
+
+.stats-title {
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 0 0 20px 0;
+}
+
+
+/* Stats table */
+
+.stats-table {
+    width: 90%;
+    margin: 0 auto;
+
+    border-collapse: collapse;
+
+    color: white;
+
+    font-size: 1.7rem;
+
+    text-align: center;
+
+    background: #111;
+}
+
+
+/* Header */
+
+.stats-table thead th {
+    background: #1d1d1d !important;
+
+    color: white !important;
+
+    font-size: 1.4rem;
+
+    font-weight: bold;
+
+    padding: 10px 15px;
+
+    text-align: center;
+
+    border-bottom: 3px solid white;
+}
+
+
+/* Table cells */
+
+.stats-table tbody td {
+    color: white;
+
+    padding: 9px 15px;
+
+    border-bottom: 1px solid #444;
+
+    vertical-align: middle;
+
+    text-align: center;
+}
+
+
+/* Player name */
+
+.stats-table tbody td:nth-child(2) {
+    text-align: left;
+
+    font-weight: bold;
+}
+
+
+/* Alternating rows */
+
+.stats-table tbody tr:nth-child(odd) {
+    background: #111 !important;
+}
+
+.stats-table tbody tr:nth-child(even) {
+    background: #202020 !important;
+}
+
+
+/* Rank / number */
+
+.stats-table tbody td:first-child {
+    font-weight: bold;
+}
+
+
+/* ===========================
+   Stats Screen - Mobile/TV
+=========================== */
+
+@media (max-height: 800px) {
+
+    .stats-screen {
+        padding: 15px 30px;
+    }
+
+    .stats-title {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .stats-table {
+        font-size: 1.4rem;
+    }
+
+    .stats-table thead th {
+        font-size: 1.2rem;
+        padding: 7px;
+    }
+
+    .stats-table tbody td {
+        padding: 6px 10px;
+    }
+
+}
