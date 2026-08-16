@@ -400,7 +400,7 @@ body {
 /* Player name */
 
 .stats-table tbody td:nth-child(2) {
-    text-align: left;
+    text-align: center;
 
     font-weight: bold;
 }
