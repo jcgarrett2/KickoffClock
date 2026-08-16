@@ -99,9 +99,7 @@ body {
 
     color:white;
 
-    font-size:1.2rem;
-
-    line-height:1.2;
+    font-size:1.8vh;
 
     background:#111;
 
@@ -116,22 +114,25 @@ body {
 
     color:white;
 
-    font-size:1.3rem;
+    font-size:2vh;
 
-    padding:10px;
+    padding:0.5vh;
 
     text-align:center;
 
     border-bottom:3px solid white;
 
 }
-
+.schedule-title {
+    flex-shrink: 0;
+    margin-bottom: 5px;
+}
 
 /* Cells */
 
 .schedule-table td {
 
-    padding:8px;
+    padding:0.5vh;
 
     text-align:center;
 
@@ -157,9 +158,9 @@ body {
 
 .schedule-logo {
 
-    width:45px;
+    width:4vh;
 
-    height:45px;
+    height:4vh;
 
     object-fit:contain;
 
@@ -313,9 +314,8 @@ body {
 =========================== */
 
 #scheduleList{
-
-    width:95%;
-
-    margin:auto;
-
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
 }
