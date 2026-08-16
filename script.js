@@ -196,7 +196,11 @@ function buildStandings(){
 
                 <td>${team["Standing"]}</td>
 
-                <td>${team["Logo"]}</td>
+               <td>
+                    <img class="standings-logo"
+                     src="${team["Logo"]}"
+                     alt="${team["team"]}">
+                </td>
 
                 <td>${team["team"]}</td>
 
