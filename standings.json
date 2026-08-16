@@ -1,10 +1,11 @@
-{
+[
+    {
     "team": "Holy Spirit",
     "Logo":"HSHS MAIN V2.png",
     "Record": "0-0",
     "Region Record": "0-0",
     "Standing": "T-1",
-    "Next": "Waterloo",
+    "Next": "Waterloo"
   },
 {
     "team": "TA",
@@ -12,7 +13,7 @@
     "Record": "0-0",
     "Region Record": "0-0",
     "Standing": "T-1",
-    "Next": "Sulligent",
+    "Next": "Sulligent"
   },
 {
     "team": "PA",
@@ -20,7 +21,7 @@
     "Record": "0-0",
     "Region Record": "0-0",
     "Standing": "T-1",
-    "Next": "Vina",
+    "Next": "Vina"
   },
 {
     "team": "Donoho",
@@ -28,7 +29,7 @@
     "Record": "0-0",
     "Region Record": "0-0",
     "Standing": "T-1",
-    "Next": "Hope Christian",
+    "Next": "Hope Christian"
   },
 {
     "team": "Ellwood Christian",
@@ -36,7 +37,7 @@
     "Record": "0-0",
     "Region Record": "0-0",
     "Standing": "T-1",
-    "Next": "Francis Marion",
+    "Next": "Francis Marion"
   },
 {
     "team": "Hope Christian",
@@ -44,7 +45,7 @@
     "Record": "0-0",
     "Region Record": "0-0",
     "Standing": "T-1",
-    "Next": "Donoho",
+    "Next": "Donoho"
   },
 {
     "team": "Victory Christian",
@@ -52,5 +53,6 @@
     "Record": "0-0",
     "Region Record": "0-0",
     "Standing": "T-1",
-    "Next": "@ Ragland",
-  },
+    "Next": "@ Ragland"
+  }
+]
