@@ -148,6 +148,10 @@ function showScreen(screenName) {
     if (screenName === "quote") {
         showRandomQuote();
     }
+
+    if (screenName === "standings") {
+    buildStandings();
+}
 }
 
 function nextScreen() {
