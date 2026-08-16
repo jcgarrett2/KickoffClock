@@ -1,28 +1,4 @@
 [
-    {
-    "team": "Holy Spirit",
-    "Logo":"HSHS MAIN V2.png",
-    "Record": "0-0",
-    "Region Record": "0-0",
-    "Standing": "T-1",
-    "Next": "Waterloo"
-  },
-{
-    "team": "TA",
-    "Logo":"TA.png",
-    "Record": "0-0",
-    "Region Record": "0-0",
-    "Standing": "T-1",
-    "Next": "Sulligent"
-  },
-{
-    "team": "PA",
-    "Logo":"PA.png",
-    "Record": "0-0",
-    "Region Record": "0-0",
-    "Standing": "T-1",
-    "Next": "Vina"
-  },
 {
     "team": "Donoho",
     "Logo":"Donoho.png",
@@ -39,6 +15,14 @@
     "Standing": "T-1",
     "Next": "Francis Marion"
   },
+    {
+    "team": "Holy Spirit",
+    "Logo":"HSHS MAIN V2.png",
+    "Record": "0-0",
+    "Region Record": "0-0",
+    "Standing": "T-1",
+    "Next": "Waterloo"
+  },
 {
     "team": "Hope Christian",
     "Logo":"HCA.png",
@@ -46,6 +30,22 @@
     "Region Record": "0-0",
     "Standing": "T-1",
     "Next": "Donoho"
+  },
+{
+    "team": "Pickens Academy",
+    "Logo":"PA.png",
+    "Record": "0-0",
+    "Region Record": "0-0",
+    "Standing": "T-1",
+    "Next": "Vina"
+  },
+{
+    "team": "Tuscaloosa Academy",
+    "Logo":"TA.png",
+    "Record": "0-0",
+    "Region Record": "0-0",
+    "Standing": "T-1",
+    "Next": "Sulligent"
   },
 {
     "team": "Victory Christian",
