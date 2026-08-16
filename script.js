@@ -1,16 +1,10 @@
 let schedule = [];
 let quotes = [];
 let rushingStats = [];
-
+let config = [];
 let currentGame = null;
-
 let currentScreen = 0;
-
-const screens = [
-    "countdownScreen",
-    "scheduleScreen",
-    "quoteScreen"
-];
+let rotation = [];
 
 async function loadData() {
 
@@ -21,6 +15,14 @@ async function loadData() {
     const quoteData = await quoteResponse.json();
 
     quotes = quoteData.quotes;
+
+    const statsResponse = await fetch("stats.json");
+    rushingStats = await statsResponse.json();
+
+    const configResponse = await fetch("config.json");
+    const configData = await configResponse.json();
+
+    rotation = configData.rotation;
 
     startApp();
 }
@@ -94,7 +96,6 @@ function startApp() {
             "SEASON COMPLETE";
 
         return;
-
     }
 
     updateCountdown(currentGame);
@@ -103,56 +104,62 @@ function startApp() {
 
         updateCountdown(currentGame);
 
-    },1000);
-    showScreen(screens[0]);
+    }, 1000);
 
-    setInterval(nextScreen,15000);
+    showScreen(rotation[0].screen);
 
+    setTimeout(nextScreen, rotation[0].duration * 1000);
 }
 
-function showScreen(id){
+function showScreen(screenName) {
 
-    screens.forEach(screen=>{
+    const screenIds = {
+        "countdown": "countdownScreen",
+        "schedule": "scheduleScreen",
+        "rush stats": "statsScreen",
+        "quote": "quoteScreen"
+    };
 
-        document
-            .getElementById(screen)
-            .classList.add("hidden");
+    const id = screenIds[screenName];
 
+    if (!id) {
+        console.error("Unknown screen:", screenName);
+        return;
+    }
+
+    document.querySelectorAll(".screen").forEach(screen => {
+        screen.classList.add("hidden");
     });
 
-    document
-        .getElementById(id)
-        .classList.remove("hidden");
-    if(id==="scheduleScreen")
-        buildSchedule();
+    document.getElementById(id).classList.remove("hidden");
 
-    if(id==="quoteScreen")
+    if (screenName === "schedule") {
+        buildSchedule();
+    }
+
+    if (screenName === "rush stats") {
+        buildStats();
+    }
+
+    if (screenName === "quote") {
         showRandomQuote();
-    if(id==="rushingStats")
-        loadStats();
+    }
 }
 
-function nextScreen(){
+function nextScreen() {
 
     currentScreen++;
 
-    if(currentScreen>=screens.length){
-
-        currentScreen=0;
-
+    if (currentScreen >= rotation.length) {
+        currentScreen = 0;
     }
 
-    showScreen(screens[currentScreen]);
+    showScreen(rotation[currentScreen].screen);
 
-}
-async function loadStats() {
-
-    const response = await fetch("stats.json");
-
-    rushingStats = await response.json();
-
-    buildStats();
-
+    setTimeout(
+        nextScreen,
+        rotation[currentScreen].duration * 1000
+    );
 }
 
 function buildStats() {
