@@ -1,3 +1,4 @@
+[
 {
     "Player #": "9",
     "Player Name":"Hudson Mcpherson",
@@ -5,7 +6,7 @@
     "Rush Attempts": "0",
     "Rush Yards": "0",
     "YPC": "0.0",
-    "Rush TDS": "0",	
+    "Rush TDS": "0"	
   },
 {
     "Player #": "5",
@@ -14,7 +15,7 @@
     "Rush Attempts": "0",
     "Rush Yards": "0",
     "YPC": "0.0",
-    "Rush TDS": "0",	
+    "Rush TDS": "0"	
   },
 {
     "Player #": "1",
@@ -23,7 +24,7 @@
     "Rush Attempts": "0",
     "Rush Yards": "0",
     "YPC": "0.0",
-    "Rush TDS": "0",	
+    "Rush TDS": "0"	
   },
 {
     "Player #": "2",
@@ -32,7 +33,7 @@
     "Rush Attempts": "0",
     "Rush Yards": "0",
     "YPC": "0.0",
-    "Rush TDS": "0",	
+    "Rush TDS": "0"	
   },
 {
     "Player #": "7",
@@ -41,7 +42,7 @@
     "Rush Attempts": "0",
     "Rush Yards": "0",
     "YPC": "0.0",
-    "Rush TDS": "0",	
+    "Rush TDS": "0"	
   },
 {
     "Player #": "3",
@@ -50,7 +51,7 @@
     "Rush Attempts": "0",
     "Rush Yards": "0",
     "YPC": "0.0",
-    "Rush TDS": "0",	
+    "Rush TDS": "0"	
   },
 {
     "Player #": "16",
@@ -59,7 +60,7 @@
     "Rush Attempts": "0",
     "Rush Yards": "0",
     "YPC": "0.0",
-    "Rush TDS": "0",	
+    "Rush TDS": "0"	
   },
 {
     "Player #": "15",
@@ -68,5 +69,6 @@
     "Rush Attempts": "0",
     "Rush Yards": "0",
     "YPC": "0.0",
-    "Rush TDS": "0",	
+    "Rush TDS": "0"	
   }
+]
