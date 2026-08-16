@@ -3,6 +3,6 @@
     { "screen": "countdown", "duration": 20 },
     { "screen": "schedule",  "duration": 10 },
     { "screen": "rush stats", "duration": 10},
-    { "screen": "quote",     "duration": 10 },
+    { "screen": "quote",     "duration": 10 }
   ]
 }
