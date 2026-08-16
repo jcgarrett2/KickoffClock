@@ -119,6 +119,7 @@ function showScreen(screenName) {
     const screenIds = {
         "countdown": "countdownScreen",
         "schedule": "scheduleScreen",
+        "standings": "standingsScreen",
         "rush stats": "statsScreen",
         "quote": "quoteScreen"
     };
