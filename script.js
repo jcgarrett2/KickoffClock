@@ -17,7 +17,7 @@ async function loadData() {
     quotes = quoteData.quotes;
 
     const rushingResponse = await fetch("rushing.json");
-    rushingStats = await statsResponse.json();
+    rushingStats = await rushingResponse.json();
 
     const configResponse = await fetch("config.json");
     const configData = await configResponse.json();
