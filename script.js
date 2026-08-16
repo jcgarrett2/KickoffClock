@@ -169,16 +169,14 @@ function buildStats() {
         <table class="stats-table">
 
             <thead>
-
                 <tr>
                     <th>#</th>
                     <th>Player</th>
                     <th>ATT</th>
                     <th>YDS</th>
-                    <th>YPA</th>
+                    <th>YPC</th>
                     <th>TD</th>
                 </tr>
-
             </thead>
 
             <tbody>
@@ -190,17 +188,17 @@ function buildStats() {
 
             <tr>
 
-                <td>${player.number}</td>
+                <td>${player["Player #"]}</td>
 
-                <td>${player.name}</td>
+                <td>${player["Player Name"]}</td>
 
-                <td>${player.rushingAttempts}</td>
+                <td>${player["Rush Attempts"]}</td>
 
-                <td>${player.rushingYards}</td>
+                <td>${player["Rush Yards"]}</td>
 
-                <td>${player.ypa}</td>
+                <td>${player["YPC"]}</td>
 
-                <td>${player.rushingTD}</td>
+                <td>${player["Rush TDS"]}</td>
 
             </tr>
 
@@ -209,11 +207,8 @@ function buildStats() {
     });
 
     html += `
-
             </tbody>
-
         </table>
-
     `;
 
     document.getElementById("statsList").innerHTML = html;
