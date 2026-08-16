@@ -1,5 +1,6 @@
 let schedule = [];
 let quotes = [];
+let rushingStats = [];
 
 let currentGame = null;
 
@@ -127,6 +128,8 @@ function showScreen(id){
 
     if(id==="quoteScreen")
         showRandomQuote();
+    if(id==="rushingStats")
+        loadStats();
 }
 
 function nextScreen(){
@@ -142,6 +145,74 @@ function nextScreen(){
     showScreen(screens[currentScreen]);
 
 }
+async function loadStats() {
+
+    const response = await fetch("stats.json");
+
+    rushingStats = await response.json();
+
+    buildStats();
+
+}
+
+function buildStats() {
+
+    let html = `
+
+        <table class="stats-table">
+
+            <thead>
+
+                <tr>
+                    <th>#</th>
+                    <th>Player</th>
+                    <th>ATT</th>
+                    <th>YDS</th>
+                    <th>YPA</th>
+                    <th>TD</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+    `;
+
+    rushingStats.forEach(player => {
+
+        html += `
+
+            <tr>
+
+                <td>${player.number}</td>
+
+                <td>${player.name}</td>
+
+                <td>${player.rushingAttempts}</td>
+
+                <td>${player.rushingYards}</td>
+
+                <td>${player.ypa}</td>
+
+                <td>${player.rushingTD}</td>
+
+            </tr>
+
+        `;
+
+    });
+
+    html += `
+
+            </tbody>
+
+        </table>
+
+    `;
+
+    document.getElementById("statsList").innerHTML = html;
+
+}
+
 function showRandomQuote(){
 
     const random =
