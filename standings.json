@@ -1,58 +1,59 @@
 [
+    
 {
-    "team": "Donoho",
-    "Logo":"Donoho.png",
-    "Record": "0-0",
-    "Region Record": "0-0",
-    "Standing": "T-1",
-    "Next": "Hope Christian"
-  },
-{
-    "team": "Ellwood Christian",
-    "Logo":"Ellwood.png",
-    "Record": "0-0",
-    "Region Record": "0-0",
-    "Standing": "T-1",
-    "Next": "Francis Marion"
+    "team": "Hope Christian",
+    "Logo":"HCA.png",
+    "Record": "1-0",
+    "Region Record": "1-0",
+    "Standing": "1",
+    "Next": "Charles Henderson"
   },
     {
     "team": "Holy Spirit",
     "Logo":"HSHS MAIN V2.png",
-    "Record": "0-0",
-    "Region Record": "0-0",
-    "Standing": "T-1",
-    "Next": "Waterloo"
-  },
-{
-    "team": "Hope Christian",
-    "Logo":"HCA.png",
-    "Record": "0-0",
-    "Region Record": "0-0",
-    "Standing": "T-1",
-    "Next": "Donoho"
+    "Record": "1-0",
+    "Region Record": "1-0",
+    "Standing": "T-2",
+    "Next": "JF Shields"
   },
 {
     "team": "Pickens Academy",
     "Logo":"PA.png",
-    "Record": "0-0",
-    "Region Record": "0-0",
-    "Standing": "T-1",
-    "Next": "Vina"
+    "Record": "1-0",
+    "Region Record": "1-0",
+    "Standing": "T-2",
+    "Next": "@ Pickens County"
   },
 {
     "team": "Tuscaloosa Academy",
     "Logo":"TA.png",
-    "Record": "0-0",
-    "Region Record": "0-0",
-    "Standing": "T-1",
-    "Next": "Sulligent"
+    "Record": "1-0",
+    "Region Record": "1-0",
+    "Standing": "T-2",
+    "Next": "@ Hubbertville"
   },
 {
     "team": "Victory Christian",
     "Logo":"VCHS.png",
-    "Record": "0-0",
-    "Region Record": "0-0",
-    "Standing": "T-1",
-    "Next": "@ Ragland"
+    "Record": "1-0",
+    "Region Record": "1-0",
+    "Standing": "T-2",
+    "Next": "OFF"
+  },
+{
+    "team": "Ellwood Christian",
+    "Logo":"Ellwood.png",
+    "Record": "Unknown",
+    "Region Record": "Unknown",
+    "Standing": "?",
+    "Next": "@ Opp"
+  },
+{
+    "team": "Donoho",
+    "Logo":"Donoho.png",
+    "Record": "0-1",
+    "Region Record": "0-1",
+    "Standing": "7",
+    "Next": "Decatur Heritage"
   }
 ]
