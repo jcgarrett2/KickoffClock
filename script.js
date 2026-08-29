@@ -235,9 +235,9 @@ function buildStats() {
                 <tr>
                     <th>#</th>
                     <th>Player</th>
-                    <th>ATT</th>
+                    <th>Touches</th>
                     <th>YDS</th>
-                    <th>YPC</th>
+                    <th>AVG</th>
                     <th>TD</th>
                 </tr>
             </thead>
