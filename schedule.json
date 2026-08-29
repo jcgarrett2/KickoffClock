@@ -21,9 +21,9 @@
     "awayLogo": "shields.png",
     "location": "Arthur Howington Field",
     "type": "Non-Region",
-    "status":"Next",
-    "homeScore":0,
-    "awayScore":0
+    "status":"Loss",
+    "homeScore":14,
+    "awayScore":30
   },
   {
     "week": 2,
@@ -34,7 +34,7 @@
     "awayLogo": "PA.png",
     "location": "Arthur Howington Field",
     "type": "Region(Homecoming)",
-    "status":"Scheduled",
+    "status":"Next",
     "homeScore":0,
     "awayScore":0
   },
