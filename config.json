@@ -1,6 +1,9 @@
 {
   "rotation": [
     { "screen": "countdown", "duration": 20 },
+    { "screen": "schedule",  "duration": 7},
+    { "screen": "standings", "duration": 7},
+    { "screen": "rush stats", "duration": 7},
     { "screen": "quote", "duration": 10 }
   ]
 }
