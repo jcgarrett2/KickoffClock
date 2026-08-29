@@ -3,34 +3,26 @@
 {
     "team": "Hope Christian",
     "Logo":"HCA.png",
-    "Record": "1-0",
+    "Record": "1-1",
     "Region Record": "1-0",
     "Standing": "1",
-    "Next": "Charles Henderson"
-  },
-    {
-    "team": "Holy Spirit",
-    "Logo":"HSHS MAIN V2.png",
-    "Record": "1-0",
-    "Region Record": "0-0",
-    "Standing": "T-2",
-    "Next": "JF Shields"
+    "Next": "BYE"
   },
 {
     "team": "Pickens Academy",
     "Logo":"PA.png",
-    "Record": "1-0",
+    "Record": "2-0",
     "Region Record": "0-0",
     "Standing": "T-2",
-    "Next": "@ Pickens County"
+    "Next": "@ Holy Spirit"
   },
 {
     "team": "Tuscaloosa Academy",
     "Logo":"TA.png",
-    "Record": "1-0",
+    "Record": "2-0",
     "Region Record": "0-0",
     "Standing": "T-2",
-    "Next": "@ Hubbertville"
+    "Next": "Victory Christian"
   },
 {
     "team": "Victory Christian",
@@ -38,22 +30,30 @@
     "Record": "1-0",
     "Region Record": "0-0",
     "Standing": "T-2",
-    "Next": "OFF"
+    "Next": "@ Tuscaloosa Academy"
+  },
+{
+    "team": "Holy Spirit",
+    "Logo":"HSHS MAIN V2.png",
+    "Record": "1-1",
+    "Region Record": "0-0",
+    "Standing": "5",
+    "Next": "Pickens Academy"
   },
 {
     "team": "Ellwood Christian",
     "Logo":"Ellwood.png",
-    "Record": "0-1",
+    "Record": "0-2",
     "Region Record": "0-0",
     "Standing": "6",
-    "Next": "@ Opp"
+    "Next": "Donoho"
   },
 {
     "team": "Donoho",
     "Logo":"Donoho.png",
-    "Record": "0-1",
+    "Record": "1-1",
     "Region Record": "0-1",
     "Standing": "7",
-    "Next": "Decatur Heritage"
+    "Next": "@ Ellwood Christian"
   }
 ]
