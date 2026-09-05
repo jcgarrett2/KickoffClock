@@ -34,9 +34,9 @@
     "awayLogo": "PA.png",
     "location": "Arthur Howington Field",
     "type": "Region(Homecoming)",
-    "status":"Next",
-    "homeScore":0,
-    "awayScore":0
+    "status":"Loss",
+    "homeScore":32,
+    "awayScore":59
   },
   {
     "week": 3,
@@ -47,7 +47,7 @@
     "awayLogo":"HSHS MAIN V2.png",
     "location": "Lentz Field",
     "type": "Region",
-    "status":"Scheduled",
+    "status":"Next",
     "homeScore":0,
     "awayScore":0
   },
