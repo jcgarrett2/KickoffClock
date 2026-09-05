@@ -1,59 +1,58 @@
 [
-    
+{
+    "team": "Pickens Academy",
+    "Logo":"PA.png",
+    "Record": "3-0",
+    "Region Record": "1-0",
+    "Standing": "T-1",
+    "Next": "BYE"
+  },
+{
+    "team": "Tuscaloosa Academy",
+    "Logo":"TA.png",
+    "Record": "3-0",
+    "Region Record": "1-0",
+    "Standing": "T-1",
+    "Next": "BYE"
+  },
 {
     "team": "Hope Christian",
     "Logo":"HCA.png",
     "Record": "1-1",
     "Region Record": "1-0",
-    "Standing": "1",
+    "Standing": "3",
     "Next": "BYE"
-  },
-{
-    "team": "Pickens Academy",
-    "Logo":"PA.png",
-    "Record": "2-0",
-    "Region Record": "0-0",
-    "Standing": "T-2",
-    "Next": "@ Holy Spirit"
-  },
-{
-    "team": "Tuscaloosa Academy",
-    "Logo":"TA.png",
-    "Record": "2-0",
-    "Region Record": "0-0",
-    "Standing": "T-2",
-    "Next": "Victory Christian"
-  },
-{
-    "team": "Victory Christian",
-    "Logo":"VCHS.png",
-    "Record": "1-0",
-    "Region Record": "0-0",
-    "Standing": "T-2",
-    "Next": "@ Tuscaloosa Academy"
-  },
-{
-    "team": "Holy Spirit",
-    "Logo":"HSHS MAIN V2.png",
-    "Record": "1-1",
-    "Region Record": "0-0",
-    "Standing": "5",
-    "Next": "Pickens Academy"
-  },
-{
-    "team": "Ellwood Christian",
-    "Logo":"Ellwood.png",
-    "Record": "0-2",
-    "Region Record": "0-0",
-    "Standing": "6",
-    "Next": "Donoho"
   },
 {
     "team": "Donoho",
     "Logo":"Donoho.png",
+    "Record": "2-1",
+    "Region Record": "1-1",
+    "Standing": "4",
+    "Next": "Holy Spirit"
+  },
+{
+    "team": "Victory Christian",
+    "Logo":"VCHS.png",
     "Record": "1-1",
     "Region Record": "0-1",
+    "Standing": "5",
+    "Next": "Ellwood Christian"
+  },
+{
+    "team": "Holy Spirit",
+    "Logo":"HSHS MAIN V2.png",
+    "Record": "1-2",
+    "Region Record": "0-1",
+    "Standing": "6",
+    "Next": "@ Donoho"
+  },
+{
+    "team": "Ellwood Christian",
+    "Logo":"Ellwood.png",
+    "Record": "0-3",
+    "Region Record": "0-1",
     "Standing": "7",
-    "Next": "@ Ellwood Christian"
+    "Next": "@ Victory Christian"
   }
 ]
