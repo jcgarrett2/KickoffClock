@@ -1,75 +1,76 @@
 [
 {
-    "Player #": "5",
-    "Player Name":"Beau Bragg",
-    "Rushing Rank": "1",
-    "Rush Attempts": "16",
-    "Rush Yards": "138",
-    "YPC": "8.6",
-    "Rush TDS": "1"	
-  },
-{
     "Player #": "1",
     "Player Name":"Kasen Vellion",
-    "Rushing Rank": "2",
-    "Rush Attempts": "13",
-    "Rush Yards": "93",
-    "YPC": "7.2",
+    "Rushing Rank": "1",
+    "Rush Attempts": "21",
+    "Rush Yards": "186",
+    "YPC": "8.86",
     "Rush TDS": "1"	
   },
 {
-    "Player #": "2",
-    "Player Name":"Jackson Corder",
+    "Player #": "5",
+    "Player Name":"Beau Bragg",
+    "Rushing Rank": "2",
+    "Rush Attempts": "20",
+    "Rush Yards": "183",
+    "YPC": "9.15",
+    "Rush TDS": "1"	
+  },
+{
+    "Player #": "3",
+    "Player Name":"Charlie Strozier",
     "Rushing Rank": "3",
     "Rush Attempts": "4",
-    "Rush Yards": "64",
-    "YPC": "16.0",
-    "Rush TDS": "1"	
-  },
-{
-    "Player #": "4",
-    "Player Name":"Christian Snyder",
-    "Rushing Rank": "4",
-    "Rush Attempts": "9",
-    "Rush Yards": "54",
-    "YPC": "6.0",
+    "Rush Yards": "141",
+    "YPC": "35.25",
     "Rush TDS": "1"	
   },
 {
     "Player #": "9",
     "Player Name":"Hudson Mcpherson",
-    "Rushing Rank": "5",
-    "Rush Attempts": "18",
-    "Rush Yards": "53",
-    "YPC": "2.9",
-    "Rush TDS": "0"	
+    "Rushing Rank": "4",
+    "Rush Attempts": "27",
+    "Rush Yards": "111",
+    "YPC": "4.11",
+    "Rush TDS": "1"	
   },
 {
-    "Player #": "3",
-    "Player Name":"Charlie Strozier",
-    "Rushing Rank": "6",
-    "Rush Attempts": "2",
-    "Rush Yards": "51",
-    "YPC": "26.0",
-    "Rush TDS": "0"	
+    "Player #": "2",
+    "Player Name":"Jackson Corder",
+    "Rushing Rank": "5",
+    "Rush Attempts": "7",
+    "Rush Yards": "64",
+    "YPC": "9.14",
+    "Rush TDS": "1"	
   },
+{
+    "Player #": "4",
+    "Player Name":"Christian Snyder",
+    "Rushing Rank": "6",
+    "Rush Attempts": "10",
+    "Rush Yards": "58",
+    "YPC": "5.80",
+    "Rush TDS": "1"	
+  },
+
 {
     "Player #": "7",
     "Player Name":"Gaines Gordy",
     "Rushing Rank": "7",
-    "Rush Attempts": "11",
-    "Rush Yards": "48",
-    "YPC": "4.4",
+    "Rush Attempts": "17",
+    "Rush Yards": "53",
+    "YPC": "3.12",
     "Rush TDS": "1"	
   },
 {
     "Player #": "6",
     "Player Name":"Trey Burrows",
     "Rushing Rank": "8",
-    "Rush Attempts": "2",
-    "Rush Yards": "15",
-    "YPC": "7.5",
-    "Rush TDS": "0"	
+    "Rush Attempts": "7",
+    "Rush Yards": "48",
+    "YPC": "6.86",
+    "Rush TDS": "1"	
   },
 {
     "Player #": "24",
