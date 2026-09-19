@@ -47,9 +47,9 @@
     "awayLogo":"HSHS MAIN V2.png",
     "location": "Lentz Field",
     "type": "Region",
-    "status":"Next",
-    "homeScore":0,
-    "awayScore":0
+    "status":"Loss",
+    "homeScore":35,
+    "awayScore":33
   },
   {
     "week": 4,
@@ -60,9 +60,9 @@
     "awayLogo": "HSHS MAIN V2.png",
     "location": "Selma Memorial Stadium",
     "type": "Region",
-    "status":"Scheduled",
-    "homeScore":0,
-    "awayScore":0
+    "status":"Win",
+    "homeScore":16,
+    "awayScore":50
   },
   {
     "week": 6,
@@ -73,7 +73,7 @@
     "awayLogo": "HCA.png",
     "location": "Arthur Howington Field",
     "type": "Region",
-    "status":"Scheduled",
+    "status":"Next",
     "homeScore":0,
     "awayScore":0
   },
