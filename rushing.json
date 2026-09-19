@@ -1,84 +1,101 @@
 [
 {
+    "Player #": "5",
+    "Player Name":"Beau Bragg",
+    "Rushing Rank": "1",
+    "Rush Attempts": "37",
+    "Rush Yards": "321",
+    "YPC": "8.7",
+    "Rush TDS": "2"	
+  },
+{
     "Player #": "1",
     "Player Name":"Kasen Vellion",
-    "Rushing Rank": "1",
-    "Rush Attempts": "21",
-    "Rush Yards": "186",
-    "YPC": "8.86",
+    "Rushing Rank": "2",
+    "Rush Attempts": "23",
+    "Rush Yards": "224",
+    "YPC": "9.7",
     "Rush TDS": "1"	
   },
 {
-    "Player #": "5",
-    "Player Name":"Beau Bragg",
-    "Rushing Rank": "2",
-    "Rush Attempts": "20",
-    "Rush Yards": "183",
-    "YPC": "9.15",
-    "Rush TDS": "1"	
+    "Player #": "6",
+    "Player Name":"Trey Burrows",
+    "Rushing Rank": "3",
+    "Rush Attempts": "18",
+    "Rush Yards": "206",
+    "YPC": "11",
+    "Rush TDS": "6"	
   },
 {
     "Player #": "3",
     "Player Name":"Charlie Strozier",
-    "Rushing Rank": "3",
-    "Rush Attempts": "4",
-    "Rush Yards": "141",
-    "YPC": "35.25",
-    "Rush TDS": "1"	
-  },
-{
-    "Player #": "9",
-    "Player Name":"Hudson Mcpherson",
     "Rushing Rank": "4",
-    "Rush Attempts": "27",
-    "Rush Yards": "111",
-    "YPC": "4.11",
+    "Rush Attempts": "10",
+    "Rush Yards": "150",
+    "YPC": "15",
     "Rush TDS": "1"	
   },
 {
     "Player #": "2",
     "Player Name":"Jackson Corder",
     "Rushing Rank": "5",
-    "Rush Attempts": "7",
-    "Rush Yards": "64",
-    "YPC": "9.14",
+    "Rush Attempts": "12",
+    "Rush Yards": "136",
+    "YPC": "11",
     "Rush TDS": "1"	
   },
 {
-    "Player #": "4",
-    "Player Name":"Christian Snyder",
+    "Player #": "9",
+    "Player Name":"Hudson Mcpherson",
     "Rushing Rank": "6",
-    "Rush Attempts": "10",
-    "Rush Yards": "58",
-    "YPC": "5.80",
+    "Rush Attempts": "27",
+    "Rush Yards": "111",
+    "YPC": "4.11",
     "Rush TDS": "1"	
   },
-
 {
     "Player #": "7",
     "Player Name":"Gaines Gordy",
     "Rushing Rank": "7",
-    "Rush Attempts": "17",
-    "Rush Yards": "53",
-    "YPC": "3.12",
-    "Rush TDS": "1"	
+    "Rush Attempts": "28",
+    "Rush Yards": "80",
+    "YPC": "2.9",
+    "Rush TDS": "3"	
   },
 {
-    "Player #": "6",
-    "Player Name":"Trey Burrows",
+    "Player #": "4",
+    "Player Name":"Christian Snyder",
     "Rushing Rank": "8",
-    "Rush Attempts": "7",
-    "Rush Yards": "48",
-    "YPC": "6.86",
-    "Rush TDS": "1"	
+    "Rush Attempts": "23",
+    "Rush Yards": "75",
+    "YPC": "3.3",
+    "Rush TDS": "3"	
   },
 {
     "Player #": "24",
     "Player Name":"MJ Cleveland",
     "Rushing Rank": "9",
+    "Rush Attempts": "11",
+    "Rush Yards": "34",
+    "YPC": "3.1",
+    "Rush TDS": "0"	
+  },
+{
+    "Player #": "15",
+    "Player Name":"Jake Barnette",
+    "Rushing Rank": "10",
     "Rush Attempts": "3",
-    "Rush Yards": "10",
-    "YPC": "3.33",
+    "Rush Yards": "23",
+    "YPC": "7.7",
+    "Rush TDS": "0"	
+  },
+{
+    "Player #": "11",
+    "Player Name":"Evan Barnette",
+    "Rushing Rank": "11",
+    "Rush Attempts": "3",
+    "Rush Yards": "6",
+    "YPC": "2",
     "Rush TDS": "0"	
   }
 ]
