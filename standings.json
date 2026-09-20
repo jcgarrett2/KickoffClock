@@ -1,19 +1,19 @@
 [
 {
-    "team": "Tuscaloosa Academy",
-    "Logo":"TA.png",
-    "Record": "4-0",
-    "Region Record": "2-0",
-    "Standing": "T-1",
-    "Next": "ACA"
-  },
-{
     "team": "Hope Christian",
     "Logo":"HCA.png",
     "Record": "3-1",
     "Region Record": "3-0",
-    "Standing": "T-1",
+    "Standing": "1",
     "Next": "Berry"
+  },
+{
+    "team": "Tuscaloosa Academy",
+    "Logo":"TA.png",
+    "Record": "4-0",
+    "Region Record": "2-0",
+    "Standing": "2",
+    "Next": "ACA"
   },
 {
     "team": "Donoho",
