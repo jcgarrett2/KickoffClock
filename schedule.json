@@ -48,8 +48,8 @@
     "location": "Lentz Field",
     "type": "Region",
     "status":"Loss",
-    "homeScore":35,
-    "awayScore":33
+    "homeScore":33,
+    "awayScore":35
   },
   {
     "week": 4,
@@ -61,8 +61,8 @@
     "location": "Selma Memorial Stadium",
     "type": "Region",
     "status":"Win",
-    "homeScore":16,
-    "awayScore":50
+    "homeScore":50,
+    "awayScore":16
   },
   {
     "week": 6,
