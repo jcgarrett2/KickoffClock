@@ -2,26 +2,26 @@
 {
     "team": "Hope Christian",
     "Logo":"HCA.png",
-    "Record": "3-1",
+    "Record": "4-1",
     "Region Record": "3-0",
     "Standing": "1",
-    "Next": "Berry"
+    "Next": "@ Holy Spirit"
   },
 {
     "team": "Tuscaloosa Academy",
     "Logo":"TA.png",
-    "Record": "4-0",
+    "Record": "4-1",
     "Region Record": "2-0",
     "Standing": "2",
-    "Next": "ACA"
+    "Next": "@ Donoho"
   },
 {
     "team": "Donoho",
     "Logo":"Donoho.png",
-    "Record": "3-1",
+    "Record": "3-2",
     "Region Record": "2-1",
     "Standing": "3",
-    "Next": "@ Gaylesville"
+    "Next": "TA"
   },
 {
     "team": "Pickens Academy",
@@ -29,19 +29,19 @@
     "Record": "3-2",
     "Region Record": "1-2",
     "Standing": "T-4",
-    "Next": "BYE"
-  },
-{
-    "team": "Victory Christian",
-    "Logo":"VCHS.png",
-    "Record": "2-2",
-    "Region Record": "1-2",
-    "Standing": "T-4",
-    "Next": "@ Verbena"
+    "Next": "Ellwood Christian"
   },
 {
     "team": "Holy Spirit",
     "Logo":"HSHS MAIN V2.png",
+    "Record": "2-3",
+    "Region Record": "1-2",
+    "Standing": "T-4",
+    "Next": "Hope Christian"
+  },
+{
+    "team": "Victory Christian",
+    "Logo":"VCHS.png",
     "Record": "2-3",
     "Region Record": "1-2",
     "Standing": "T-4",
@@ -50,9 +50,9 @@
 {
     "team": "Ellwood Christian",
     "Logo":"Ellwood.png",
-    "Record": "0-5",
+    "Record": "0-6",
     "Region Record": "0-3",
     "Standing": "7",
-    "Next": "@ University Charter"
+    "Next": "Pickens Academy"
   }
 ]
