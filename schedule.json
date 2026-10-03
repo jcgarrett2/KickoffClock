@@ -73,9 +73,9 @@
     "awayLogo": "HCA.png",
     "location": "Arthur Howington Field",
     "type": "Region",
-    "status":"Next",
-    "homeScore":0,
-    "awayScore":0
+    "status":"Loss",
+    "homeScore":14,
+    "awayScore":42
   },
   {
     "week": 8,
@@ -86,7 +86,7 @@
     "awayLogo": "HSHS MAIN V2.png",
     "location": "Knights Stadium",
     "type": "Region",
-    "status":"Scheduled",
+    "status":"Next",
     "homeScore":0,
     "awayScore":0
   },
